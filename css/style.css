@@ -1,0 +1,162 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+body{
+  background-image: url("../image/back.png");
+  background-repeat: repeat;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -10px;
+}
+.wrapper{
+  width: 960px;
+  margin: 0 auto;
+}
+.wrapper .header{
+  background: url("../image/banner-3s.jpg") no-repeat;
+  height: 145px;
+  position: relative;
+}
+
+.wrapper .header h1{
+  line-height: 145px;
+  color: #F60;
+  list-style: none;
+  font-size: 16px;
+  margin: 0 auto;
+}
+.header ul li{
+  float: left;
+  list-style: none;
+  padding: 3px 3px;
+  font-size: 11px;
+  margin-top: 15px;
+}
+.menu{
+  display: table;
+  width: 100%;
+  
+}
+.menu-top ul{
+  display: table-row;
+}
+.menu-top ul li{
+  display: table-cell;
+  background-color: #666;
+  line-height: 30px;
+  height: 30px;
+  text-transform: uppercase;
+  padding: 5px;
+  color: #fff;
+}
+.menu-top ul li.active{background-color: rgb(239, 216, 76);margin: 10px 12px;color: #000000;}
+.menu-top ul li a.active:hover{color: #000000;}
+.live::before{
+  content: "Live !";
+  display: block;
+  position: absolute;
+  color: #fff;
+  margin-left: 100px;
+  font-size: 10px;
+  padding: 5px 5px;
+  line-height: 6px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-style: italic;
+}
+.new::before{
+  content: "New !";
+  display: block;
+  position: absolute;
+  background: #D52462;
+  color: #fff;
+  margin-left: 110px;
+  font-size: 10px;
+  padding: 5px 5px;
+  line-height: 6px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+.menu ul{
+  display: table-row;
+  text-align: center;
+}
+.menu ul li{
+  display: table-cell;
+  background-color: rgb(239, 216, 76);
+  line-height: 20px;
+  height: 20px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+.menu ul li::before{
+  content: '';
+  float: right;
+  height: 10px;
+  border-left: 1px solid black;
+  margin-top: 6px;
+  margin-left: 18px;
+  margin-right: -5px;
+}
+.header ul{
+  background: url("../image/liveinone.png") no-repeat;
+  margin-top: -75px;
+  color: #F60;
+}
+.logo{
+  margin: 30px;
+  height: 85px;
+  float: left;
+}
+.flag {
+    background-image: url('../image/flags.png');
+    width: 16px;
+    height: 11px;
+    display: block;
+    float: left;
+    margin: 10px 2px 0 15px;
+}
+div.left{
+  float:left;
+  background: #fff;
+  width: 150px;
+  height: 600px;
+}
+div.left ul li{
+  list-style-type: none;
+}
+div.content{
+  height: 600px;
+  background: #fff;
+  display: table;
+  width: 660px;
+}
+div.slide ul{
+  display: table-row;
+}
+div.slide ul li{
+  display: table-cell;
+  padding: 0 20px;
+  line-height: 32px;
+}
+div.right{
+  float:right;
+  background: #fff;
+  width: 150px;
+  height: 600px;
+  border-right: 1px;
+}
+a{text-decoration: none;color: #000000;font-size: 12px;}
+a:hover{text-decoration: underline; color: #fff; font-weight: bold;font-size: 12px;}
+.slide{
+  background-color: #ccc;
+  height: 30px;
+  line-height: 13px;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.ads{
+  height: 50px;
+}
